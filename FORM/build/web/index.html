@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Admission Form</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<h2>Student Admission Form</h2>
+
+<form action="MyServlet" method="POST">
+
+Name:<br>
+<input type="text" name="name" required><br><br>
+
+Gender:<br>
+<select name="gender">
+<option value="Male">Male</option>
+<option value="Female">Female</option>
+</select><br><br>
+
+Email:<br>
+<input type="email" name="email"><br><br>
+
+Address:<br>
+<input type="text" name="address"><br><br>
+
+Phone Number:<br>
+<input type="tel" name="phone"><br><br>
+
+Year of Completion:<br>
+<input type="number" name="year"><br><br>
+
+Grade:<br>
+<input type="text" name="grade"><br><br>
+
+<label>
+<input type="checkbox" name="confirm" required>
+I confirm the information is accurate
+</label>
+
+<br><br>
+
+<input type="submit" value="Submit Application">
+
+</form>
+
+</body>
+</html>
